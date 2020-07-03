@@ -62,7 +62,7 @@ function generatePassword() {
 			passwordNew.push(bigPool[Math.floor(Math.random() * bigPool.length)]);
 			//console.log(passLength);
 		}
-		//console.log(passLength);
+		
 		//console.log(passwordNew);
 		return passwordNew.join('');
 	} else {
